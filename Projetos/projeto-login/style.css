@@ -1,0 +1,41 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+body {
+    background-color: #aa9fc4;
+    color: #1d0042;
+}
+
+fieldset {
+    margin: auto;
+    text-decoration: none;
+}
+
+.nome, .email{
+    padding-bottom: 10px;
+}
+
+select {
+    border-radius: 15px
+}
+
+input {
+    border-radius: 5px 0px 5px 0px;
+    padding: 3px;
+}
+
+.tecnologia {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+select > option {
+    border-radius: 10px;
+}
+
+.emaillg {
+    padding: 0px 50px;
+}
