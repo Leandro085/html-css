@@ -9,12 +9,11 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     color: #03A63C;
-
 }
 
 fieldset {
     margin: auto;
-    background-color: #0038248f;
+    background-color: #003824a4;
     width: 200px;
     padding: 10px;
 }
@@ -22,14 +21,10 @@ fieldset {
 header {
     margin: auto;
     margin-top: 20px;
-    width: 200px;
-    padding: 10px;
+    text-align: center;
 }
 
 footer {
     text-align: center;
 }
 
-div {
-    back
-}
