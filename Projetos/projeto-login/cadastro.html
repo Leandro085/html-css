@@ -5,67 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cadastro.css">
     <link rel="shortcut icon" href="developer-icon-free-vector.jpg" type="image/x-icon">
 </head>
 <body>
     <div class="main-cadastro">
-        <h1>Cadastro Devs</h1>
-        <p>Faça seu cadastro</p>
-    </div>
-    <div>
+        <div class="left-cadastro">
+            <h1>Faça seu cadastro</h1>
+            <img src="Hand coding-bro.png" alt="developer" width="200">
+        </div>
         <div>
-            <div class="nome">
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" placeholder="Nome"><br>
-                <label for="sobrenome">Sobrenome</label>
-                <input type="text" name="sobrenome" placeholder="Sobrenome"><br>
-            </div>
-            <div class="email">
-                <label for="email">Email</label>
-                <input type="email" name="email" placeholder="Email">
-            </div>
-            <div class="tecnologia">
-                <label>Qual área da programação você atua?</label><br>
-                <select class="selecione">
-                    <option>Selecione</option>
-                    <option>Front-End</option>
-                    <option>Back-End</option>
-                    <option>Fullstack</option>
-                </select>
-            </div>
-                <div class="tecnologia">
-                    <label>Qual linguagem você prefere?</label><br></br>
-                    <label for="tecnologia1">Html
-                        <input type="checkbox" name="tecnologia1" value="HTML">
-                    <br>
-                    </label>
-                    <label for="tecnologia2">Css
-                        <input type="checkbox" name="tecnologia2" value="CSS">
-                    <br>
-                    </label>
-                    <label for="tecnologia3">JavaScript
-                        <input type="checkbox" name="tecnologia3" value="JAVASCRIPT">
-                    <br>
-                    </label>
-                    <label for="tecnologia4">Java
-                        <input type="checkbox" name="tecnologia4" value="JAVA">
-                    <br>
-                    </label>
-                    <label for="tecnologia5">PHP
-                        <input type="checkbox" name="tecnologia5" value="PHP">
-                    <br>
-                    </label>
-                    <label for="tecnologia6">React.js
-                        <input type="checkbox" name="tecnologia6" value="React.js">
-                    <br>
-                    </label>
-                    <label for="tecnologia7">Outro
-                    <textarea name="tecnologia7" value="Outro" cols="20" rows="5"></textarea>
-                    <br>
-                    </label>
+            <div class="right-cadastro">
+                <div class="card-cadastro">
+                    <h1>Cadastre-se</h1>
+                    <div class="textfield">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" placeholder="Nome"><br>
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" name="sobrenome" placeholder="Sobrenome"><br>
+                    </div>
+                    <div class="textfield">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="tecnologia">
+                        <label>Qual área da programação você atua?</label><br>
+                        <select class="selecione">
+                            <option>Selecione</option>
+                            <option>Front-End</option>
+                            <option>Back-End</option>
+                            <option>Fullstack</option>
+                        </select>
+                    </div>
+                        <div class="tecnologia">
+                            <label>Qual linguagem você prefere?</label><br></br>
+                            <label for="tecnologia1">Html
+                                <input type="checkbox" name="tecnologia1" value="HTML">
+                            <br>
+                            </label>
+                            <label for="tecnologia2">Css
+                                <input type="checkbox" name="tecnologia2" value="CSS">
+                            <br>
+                            </label>
+                            <label for="tecnologia3">JavaScript
+                                <input type="checkbox" name="tecnologia3" value="JAVASCRIPT">
+                            <br>
+                            </label>
+                            <label for="tecnologia4">Java
+                                <input type="checkbox" name="tecnologia4" value="JAVA">
+                            <br>
+                            </label>
+                            <label for="tecnologia5">PHP
+                                <input type="checkbox" name="tecnologia5" value="PHP">
+                            <br>
+                            </label>
+                            <label for="tecnologia6">React.js
+                                <input type="checkbox" name="tecnologia6" value="React.js">
+                            <br>
+                            </label>
+                            <label for="tecnologia7">Outro
+                            <textarea name="tecnologia7" value="Outro" cols="20" rows="5"></textarea>
+                            <br>
+                            </label>
+                        </div>
+                        <button class="btn-cadastro">Enviar</button>
+                    </div>
                 </div>
-            </fieldset>
-    </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
