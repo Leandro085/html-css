@@ -104,6 +104,19 @@ main img {
     width: 100%;
 }
 
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+main img.pequena1{
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+
+
 main p {
     margin: 15px 0px ;
     text-align: justify;
