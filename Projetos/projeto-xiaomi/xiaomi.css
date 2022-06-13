@@ -2,12 +2,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:wght@100&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 :root{
+    --cor0: #6EE3F5;
+    --cor1: #23C3DB;
+    --cor2: #1B95A8;
+    --cor3: #046f80;
+    --cor4: #00464bc2;
+    --cor5: #546163;
+    --cor6: #202020;
+
+
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
-    --fonte-diferente: 'Rampart One', cursive;
+    --fonte-diferente: 'Kdam Thmor Pro', sans-serif;
+    --fonte-assinatura: 'Parisienne', cursive;
 }
 
 * {
@@ -16,14 +28,16 @@
 }
 
 body {
-    background-color: #ffb2547a;
+    background-color: #54f9ff49;
     font-family: var(--fonte-padrao);
 }
 
 header{
-    background-image: linear-gradient(to bottom, #ffa450, #AD5501);
-    padding: 20px;
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+    padding: 10px;
     min-width: 150px;
+    text-align: left;
+    font-size: 10px;
     text-align: center;
 }
 
@@ -32,23 +46,11 @@ header > h1 {
     font-family: var(--fonte-destaque);
     font-weight: normal;
     font-size: 3em;
-    margin-bottom: 30px;
-    text-shadow: 1px 1px 1px black;
-}
-
-header > p {
-    font-family: var(--fonte-padrao);
-    font-size: 1.2em;
-    color: white;
-    max-width: 500px;
-    margin: auto;
-    padding: 10px;
-    padding-bottom: 30px;
     text-shadow: 1px 1px 1px black;
 }
 
 nav {
-    background-color: #AD5501;
+    background-color: var(--cor3);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.349);
 }
@@ -63,7 +65,7 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: #ffa450;
+    background-color: var(--cor2);
     padding: 10px;
 }
 
@@ -71,6 +73,7 @@ main {
     min-width: 300px;
     max-width: 1000px;
     background-color: white;
+    color: black;
     padding: 10px;
     margin: auto;
     margin-bottom: 30px;
@@ -80,30 +83,25 @@ main {
 }
 
 main h1 {
-    background-image: linear-gradient(to right, #ffa550c7, transparent);
-    color: #4b2800;
-    font-family: var(--fonte-diferente);
+    text-align: center;
+    color: var(--cor3);
+    font-family: var(--fonte-destaque);
     font-weight: normal;
     font-size: 1.8em;
+    padding-bottom: 10px;
 }
 
 main h2 {
     font-family: var(--fonte-diferente);
-    color: var(--cor4);
+    color: var(--cor3);
     font-size: 1.3em;
     font-weight: normal;
-    background-image: linear-gradient(to right, #ffa550c7, transparent);
+    background-color: rgba(128, 128, 128, 0.479);
     text-indent: 8px;
 }
 
 main img {
     width: 100%;
-}
-
-main img.pequena{
-    max-width: 350px;
-    display: block;
-    margin: auto;
 }
 
 main p {
@@ -115,26 +113,37 @@ main p {
 }
 
 main strong{
-    color: #4b2800;
+    color: var(--cor4);
     font-weight: bold;
 }
 
 main a {
     text-decoration: none;
     font-weight: bold;
-    color: #4b2800;
+    color: var(--cor4);
     padding: 2px 6px;
 }
 
 main a:hover {
     text-decoration: underline;
-    color: rgb(99, 58, 4);
+    color: var(--cor2);
 }
 
-footer{
-    background-color: #4b2800;
+footer {
+    background-color: var(--cor6);
     color: white;
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
+}
+
+footer a {
+    font-family: var(--fonte-assinatura);
+    color: var(--cor1);
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+}
+
+footer a:hover {
+    background-color: var(--cor4);
 }
