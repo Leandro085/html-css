@@ -31,38 +31,63 @@ body {
 }
 
 header {
-    padding: 25px;
+    margin: auto;
+    padding: 15px;
     background-color: #8C1F28;
     color: white;
 }
 
-.logo-left {
-    display: block;
+.search-box {
+    margin: 0%;
+    padding: 0%;
 }
 
 
 input.search-txt {
-    padding: 7px;
-    background: rgb(255, 255, 255);
-    color: var(--cor1);
-    position: fixed;
+    margin: 0%;
+    width: 30vw;
+    height: 3vh;
+    transform: translate(108%, -134%);
+    justify-content: center;
+    border-radius: 50px;
+    border-color: black;
+    display: flex;
+}
+
+.search-txt {
+    padding: 4px;
     width: 30vw;
     height: 3vh;
     transform: translate(100%, -116%);
+    justify-content: center;
+    border-radius: 50px;
+    border-color: black;
+}
+
+.menu {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff7a;
+    color: black;
 }
 
 a {
-    color: var(--cor1);
+    padding: 10px;
+    color: #000000;
     text-decoration: none;
-    margin-left: 13em;
 }
 
 a:hover {
-    padding: 3px;
-    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+    border-radius: 8px;
     transition: 0.2s;
     background-color: black;
     color: var(--cor1);
+}
+
+img.promoção {
+    
 }
 
 
