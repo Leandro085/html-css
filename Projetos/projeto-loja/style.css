@@ -1,0 +1,66 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+:root{
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-diferente: 'Kdam Thmor Pro', sans-serif;
+    --fonte-assinatura: 'Parisienne', cursive;
+
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #828282;
+}
+
+header {
+    margin: auto;
+    display: flex;
+    padding: 30px;
+    background-color: #8C1F28;
+    color: #F2F2F2;
+}
+
+#pesquisa {
+    margin-left: 43vh;
+}
+
+input#pesquisa {
+    margin-top: 2px;
+    width: 300px;
+    height: 30px;
+}
+
+#btn {
+    margin-top: 2px;
+    width: 30px;
+    height: 30px;
+}
+
+nav {
+    padding: 10px;
+    background-color: #ffffff83;
+    color: #D92525;
+    text-align: center;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: red;
+}
