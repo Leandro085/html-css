@@ -8,6 +8,12 @@
 
 :root{
 
+    --cor1: #F2F2F2;
+    --cor2: #8C1F28;
+    --cor3: #D92525;
+    --cor4: #D92525;
+    --cor5: #044040;
+
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-diferente: 'Kdam Thmor Pro', sans-serif;
@@ -21,46 +27,45 @@
 }
 
 body {
-    background-color: #828282;
+    background: #828282;
 }
 
 header {
-    margin: auto;
-    display: flex;
-    padding: 30px;
+    padding: 25px;
     background-color: #8C1F28;
-    color: #F2F2F2;
+    color: white;
 }
 
-#pesquisa {
-    margin-left: 43vh;
+.logo-left {
+    display: block;
 }
 
-input#pesquisa {
-    margin-top: 2px;
-    width: 300px;
-    height: 30px;
+
+input.search-txt {
+    padding: 7px;
+    background: rgb(255, 255, 255);
+    color: var(--cor1);
+    position: fixed;
+    width: 30vw;
+    height: 3vh;
+    transform: translate(100%, -116%);
 }
 
-#btn {
-    margin-top: 2px;
-    width: 30px;
-    height: 30px;
-}
-
-nav {
-    padding: 10px;
-    background-color: #ffffff83;
-    color: #D92525;
-    text-align: center;
-}
-
-nav a{
-    color: black;
+a {
+    color: var(--cor1);
     text-decoration: none;
-    text-transform: uppercase;
+    margin-left: 13em;
 }
 
-nav a:hover {
-    color: red;
+a:hover {
+    padding: 3px;
+    border-radius: 10px;
+    transition: 0.2s;
+    background-color: black;
+    color: var(--cor1);
 }
+
+
+
+
+
