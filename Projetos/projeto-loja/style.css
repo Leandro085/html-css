@@ -28,11 +28,14 @@
 
 body {
     background: #828282;
+    margin: 0%;
+    padding: 0%;
 }
 
 header {
-    margin: auto;
-    padding: 15px;
+    width: 100%;
+    height: 65px;
+    padding: 1px;
     background-color: var(--cor2);
     color: rgb(255, 255, 255);
 }
@@ -90,8 +93,12 @@ a:hover {
     background-color: var(--cor1);
 }
 
+div.promoção {
+    display: inline-block;
+}
+
 .promoção{
-    padding-left: 40px;
+    padding-left: 30px;
     padding-top: 10px;
     
 }
@@ -104,15 +111,3 @@ a:hover {
     background-color: var(--cor1);
 }
 
-.promoção1 {
-    padding-left: 40px;
-    padding-top: 10px;
-}
-
-.promoção1 p{
-    text-align: center;
-    padding: 10px;
-    width: 17.5em;
-    height: 2em;
-    background-color: var(--cor1);
-}
