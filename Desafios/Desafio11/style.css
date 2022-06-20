@@ -1,0 +1,13 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url(espaco.jpg);
+    background-size: cover;
+}
+
+div.imagem {
+    text-align: center;
+}
