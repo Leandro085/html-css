@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+:root {
+    --fonte-titulo: 'Bebas Neue', cursive;
+    --fonte-destaque: 'Righteous', cursive;
+    --fonte-link: 'Unica One', cursive;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+body {
+    background-image: url(background-2.jpg);
+    background-position: left center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: var(--fonte-link);
+}
+
+div.head-rs {
+    padding: 10px;
+    background: #1d182e;
+    width: 100vh;
+    margin: auto;
+}
+
+div > h1 {
+    color: white;
+    text-shadow: 2px 1px black;
+    font-family: var(--fonte-link);
+}
+
+img {
+    border-radius: 60px;
+}
+
+main {
+    background: #1d182e;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    width: 100vh;
+    padding: 10px;
+}
+
+main > h2 {
+    text-shadow: 2px 1px black;
+    font-family: var(--fonte-link);
+}
+
+div.links-rs {
+    margin: auto;
+    padding: 10px;
+    width: 100vh;
+    background: #1d182e;
+    
+}
+
+div > a {
+    display: flex;
+    
+}
+
+div.links{
+    display: flex;
+}
+
+a {
+    background: #6f00ff;
+    width: 100vw;
+    padding: 20px;
+    font-family: var(--fonte-link);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    padding: 20px;
+    width: 100vw;
+    background: #320074;
+}
