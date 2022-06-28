@@ -18,8 +18,8 @@ header > h1 {
 main {
     margin: auto;
     width: 60%;
-    background-color: wheat;
-    padding: 20px;
+    background-color: #ff000038;
+    padding: 40px;
 }
 
 main > h2 {
@@ -29,6 +29,10 @@ main > h2 {
 main > h3 {
     text-transform: uppercase;
     font-weight: bolder;
+}
+
+main > p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 main > h3 > a {
@@ -58,10 +62,13 @@ td {
     padding: 8px;
 }
 
+div > img {
+    margin-bottom: 12px;
+}
+
 img {
     width: 60vw;
     margin: auto;
-    margin-bottom: 12px;
     display: block;
 }
 
