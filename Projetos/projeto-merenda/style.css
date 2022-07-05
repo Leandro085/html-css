@@ -13,13 +13,14 @@
 }
 
 body {
-    background: #ffff00;
+    background-image: linear-gradient(to right, black, rgb(165, 107, 0), black);
 }
 
 header {
     padding: 20px;
     text-align: center;
-    background: var(--cor2);
+    background: black;
+    color: red;
 }
 
 table {
@@ -29,6 +30,7 @@ table {
 thead {
     font-weight: bold;
     font-size: 20px;
+    background: #ffff00;
 }
 
 tbody {
