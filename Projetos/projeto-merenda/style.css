@@ -1,0 +1,60 @@
+:root {
+    --cor1: #ffff00;
+    --cor2: #E69D30;
+    --cor3: #D96B38;
+    --cor4: #ff5100;
+    --cor5: #E63530;
+    --cor6: #ff0000;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: #ffff00;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background: var(--cor2);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+tbody {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+tbody > tr:nth-child(odd) {
+    background: #e69d30dc;
+    color: black;
+}
+
+tbody > tr:nth-child(even) {
+    background: #d96b38;
+    color: white;
+}
+
+th {
+    text-align: center;
+}
+
+td{
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
